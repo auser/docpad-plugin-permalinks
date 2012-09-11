@@ -1,0 +1,38 @@
+{
+	"name": "docpad-plugin-permalinks",
+	"version": "0.1.0",
+	"description": "DocPad plugin which adds the ability to set a permalink per post",
+	"homepage": "https://github.com/auser/docpad-plugin-permalinks",
+	"keywords": [
+		"docpad",
+		"docpad-plugin",
+		"permalinks"
+	],
+	"author": "Ari Lerner <arilerner@mac.com>",
+	"maintainers": [
+		"Ari Lerner <arilerner@mac.com>"
+	],
+	"contributors": [
+	],
+	"bugs": {
+		"url": "https://github.com/auser/docpad-plugin-permalinks/issues"
+	},
+	"repository" : {
+		"type": "git",
+		"url": "http://github.com/auser/docpad-plugin-permalinks.git"
+	},
+	"engines" : {
+		"node": ">=0.4.0",
+		"docpad": "5.x"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+	  "coffee-script":"1.3.x"
+	},
+	"main": "./lib/permalinks.plugin.js",
+	"scripts": {
+	  "build": "coffee --compile --output lib/ src/",
+	  "watch": "coffee --watch --compile --output lib/ src/"
+	}
+}
