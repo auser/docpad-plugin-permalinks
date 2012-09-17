@@ -7,7 +7,6 @@ module.exports = (BasePlugin) ->
       meta = document.getMeta();
       
       if (permalink = meta.get('permalink'))
-        console.log(permalink);
         document.setUrl(permalink);
         
       return document;
